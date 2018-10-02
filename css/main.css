@@ -1,59 +1,3 @@
-/* =================================================================== 
- *
- *  Sublime v1.0 Main Stylesheet
- *  06-10-2018
- *  ------------------------------------------------------------------
- *
- *  TOC:
- *  # base style overrides
- *    ## links
- *  # typography & general theme styles
- *    ## Lists
- *    ## responsive video container
- *    ## floated image
- *    ## tables
- *    ## Spacing 
- *  # preloader
- *  # forms
- *    ## Style Placeholder Text
- *    ## Change Autocomplete styles
- *  # buttons
- *  # additional components
- *    ## alert box
- *    ## additional typo styles
- *    ## skillbars
- *  # reusable and common theme styles
- *    ## display headings
- *    ## section header
- *    ## grid overlay
- *  # header styles
- *    ## header logo
- *    ## main navigation
- *    ## mobile menu toggle 
- *  # home
- *    ## home content
- *    ## home video link
- *    ## home buttons
- *    ## home scroll
- *    ## home social
- *    ## home animations
- *  # about
- *    ## about process
- *  # services  
- *    ## services list
- *  # works
- *    ## bricks/masonry
- *  # clients
- *  # testimonials
- *  # contact
- *    ## contact social
- *  # footer
- *    ## copyright
- *    ## go top
- *
- * =================================================================== */
-
-
 /* ===================================================================
  * # base style overrides
  *
@@ -412,27 +356,6 @@ dt {
 
 dd {
   margin: 0 0 0 2rem;
-}
-
-/* ------------------------------------------------------------------- 
- * ## responsive video container
- * ------------------------------------------------------------------- */
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-}
-
-.video-container iframe,
-.video-container object,
-.video-container embed,
-.video-container video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1032,12 +955,6 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-
-/* =================================================================== 
- * # additional components
- *
- * ------------------------------------------------------------------- */
-
 /* ------------------------------------------------------------------- 
  * ## alert box - (_alert-box.scss)
  * ------------------------------------------------------------------- */
@@ -1082,10 +999,6 @@ input::-moz-focus-inner {
   background-color: #fff099;
   color: #bba31b;
 }
-
-/* ------------------------------------------------------------------- 
- * ## additional typo styles - (_additional-typo.scss)
- * ------------------------------------------------------------------- */
 
 /* drop cap 
  * ----------------------------------------------- */
@@ -1236,7 +1149,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: #017db8;
+  color: #03d4fb;
 }
 
 .stats-tabs li a em {
@@ -1653,8 +1566,8 @@ body.menu-is-open {
   margin: 0;
   padding: 0;
   position: absolute;
-  left: 7.5rem;
-  top: 50%;
+  left: 7rem;
+  top: 90%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -1670,8 +1583,8 @@ body.menu-is-open {
 }
 
 .header-logo img {
-  width: 72px;
-  height: 72px;
+  width: 120px;
+  height: 120px;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2843,7 +2756,7 @@ html.no-csstransitions .home-content__main {
 
 .item-service__icon {
   float: left;
-  color: #017db8;
+  color: #03d4fb;
   font-size: 4.5rem;
   margin-top: -1.8rem;
 }
@@ -3125,7 +3038,7 @@ html.no-csstransitions .home-content__main {
 .item-folio__project-link:hover,
 .item-folio__project-link:focus,
 .item-folio__project-link:active {
-  background-color: #FFFFFF;
+  background-color: #03d4fb;
   color: #000000;
 }
 
@@ -3243,9 +3156,9 @@ html.no-csstransitions .home-content__main {
   list-style: none;
   text-align: center;
   margin-left: 0;
-  font-weight: 700;
-  font-size: 4.5rem;
+  font-size: 2.5rem;
   position: relative;
+  opacity: 0.3;
 }
 
 .clients a {
